@@ -5,7 +5,7 @@ pipeline {
     stage('Build') {
       steps {
         //sh 'apt install nodejs'
-        sh 'npm install'
+        //sh 'npm install'
         sh 'ls'
       }
     }
