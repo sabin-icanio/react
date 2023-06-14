@@ -14,7 +14,7 @@ pipeline {
     stage('Deploy') {
       steps {
         // Perform deployment steps for your Python application
-        sh 'pm2 start --name react npm --start'
+        sh 'pm2 start --name react npm -- start'
       }
     }
   }
